@@ -1,0 +1,84 @@
+
+
+
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.897);
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #0704aa;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+/*  a blue text color to links */
+a {
+  color: dodgerblue;
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <form >
+   <div class="container">
+    <h1>Register</h1>
+     
+    <hr> <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter name" name="name" id="name" > 
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter email" name="email" id="email" >
+    <label for="mobile"><b>Mobile</b></label>
+    <input type="text" placeholder="Enter mobile" name="mobile" id="mobile" >
+    <label for="city"><b>City</b></label>
+    <input type="text" placeholder="Enter city" name="city" id="city" >
+    <label for="state"><b>State</b></label>
+    <input type="text" placeholder="Enter state" name="state" id="state" >
+    <label for="country"><b>Country</b></label>
+    <input type="text" placeholder="Enter country" name="country" id="country" >
+    <hr>
+     <button type="submit" class="registerbtn">Register</button>
+   </div>
+  </form>
+</body>
+</html>
+
