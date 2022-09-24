@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    
+{% endblock %}
+
+{% block body %}
+<header class="header">
+    <a href="#" class="logo">Home</a>
+    <nav class="nav-items">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      
+    </nav>
+</header>
+
+<main>
+    <div class="intro" >
+      <h1>Back End Developer</h1>
+      <p>Welcome...</p>
+      <a href="{{ url_for('signup') }}" class="button2" name = "signup">Signup</a>
+      <div class="space"> </div>
+      <a href="{{ url_for('login') }}" class="button2" name = "login">Login</a>
+      
+    </div>
+    
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>Hello,Myself Sivaranjani P.I'm doing my final year in Dhirajlal Gandhi College of Technology. I want to become a back end developer.As I know SQL,NOSQL,PHP very well, I can able to efficiently work with databases.   </p>
+      </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="copy">&copy; 2022 Developer</div>
+    <div class="bottom-links">
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+</footer>
+{% endblock %}
