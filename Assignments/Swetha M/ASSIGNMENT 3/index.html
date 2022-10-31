@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Images</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<img src="https://jobrecommenderapplicationbasedonskill.s3.jp-tok.cloud-object-storage.appdomain.cloud/Screenshot_20221029_185019~2.jpg">
+<img src="https://jobrecommenderapplicationbasedonskill.s3.jp-tok.cloud-object-storage.appdomain.cloud/Screenshot_20221029_185109~2.jpg">
+<img src="https://jobrecommenderapplicationbasedonskill.s3.jp-tok.cloud-object-storage.appdomain.cloud/Screenshot_20221029_185116~2.jpg">
+<img src="https://jobrecommenderapplicationbasedonskill.s3.jp-tok.cloud-object-storage.appdomain.cloud/Screenshot_20221029_185119~2.jpg">
+<img src="https://jobrecommenderapplicationbasedonskill.s3.jp-tok.cloud-object-storage.appdomain.cloud/Screenshot_20221029_190343~2.jpg">
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "37cc12b3-a7c2-4ad2-9bbf-62e99c7e7602", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "0f887b02-173f-4aa5-8cd1-2358a051f3f8", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
