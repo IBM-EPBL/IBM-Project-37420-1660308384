@@ -1,1 +1,2 @@
-
+URL of ChatBot:
+https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fau-syd.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-0f887b02-173f-4aa5-8cd1-2358a051f3f8%3A%3A4d433eba-bc37-46a9-8d0b-ee2df94cb2dc&integrationID=ca05c8d2-c38b-42b9-86f1-c58b0e485283&region=au-syd&serviceInstanceID=0f887b02-173f-4aa5-8cd1-2358a051f3f8
